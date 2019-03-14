@@ -1,0 +1,4 @@
+[2019-03-14 11:14:28] name.WARNING: Foo [] []
+[2019-03-14 11:14:28] name.ERROR: Bar [] []
+[2019-03-14 11:34:02] name.WARNING: Hello Marcio [] []
+[2019-03-14 11:34:25] name.WARNING: Hello Marcio [] []

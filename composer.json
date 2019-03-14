@@ -1,0 +1,20 @@
+{
+    "name": "marciohass/curso-composer-son",
+    "description": "Pacote de exemplo do curso de composer da SON",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcio Hass",
+            "email": "marciohhss@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MarcioHass\\CursoSON\\": "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^1.24"
+    }
+}
