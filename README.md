@@ -1,0 +1,18 @@
+# Meu pacote
+
+Exemplo de um curso
+
+## Exemplo de utilizacao
+
+````
+
+use MarcioHass\CursoSON\Hello;
+
+// create a log channel
+$log = new Logger('name');
+$log->pushHandler(new StreamHandler('app.log', Logger::WARNING));
+
+// add records to the log
+$log->warning((new Hello)->say('Marcio'));
+
+````
